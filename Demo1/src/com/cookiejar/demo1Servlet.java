@@ -40,7 +40,7 @@ public class demo1Servlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		System.out.println("hello dev");
 		String date=request.getParameter("date");
 		String nm=request.getParameter("name");
 		String add=request.getParameter("address");
